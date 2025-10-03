@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Privacy Policy — MicrometeoApp</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; line-height:1.6; padding:20px; color:#222; max-width:900px; margin:auto; }
+    header h1 { margin:0 0 6px 0; }
+    section { margin-bottom:16px; }
+    code { background:#f4f4f4; padding:2px 6px; border-radius:4px; }
+    footer { font-size:0.9em; color:#555; margin-top:22px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy — MicrometeoApp</h1>
+    <p>Effective date: 2025-10-03</p>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p>MicrometeoApp requests access to the user's geolocation only to retrieve a weather forecast from <code>api.open-meteo.com</code>. Location coordinates are used solely for the API request, are not stored on our servers, and are not shared with third parties by MicrometeoApp.</p>
+  </section>
+
+  <section>
+    <h2>Data Collected</h2>
+    <ul>
+      <li><strong>Coordinates (latitude/longitude)</strong> — obtained via the browser Geolocation API after explicit user consent.</li>
+      <li><strong>Forecast data</strong> — responses from <code>https://api.open-meteo.com/v1/forecast</code> (temperature, precipitation, wind, etc.).</li>
+      <li>Not collected: name, email (unless submitted by user), device identifiers, movement history.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Purpose and Use</h2>
+    <p>Coordinates are used once to perform a request to Open-Meteo and to display the forecast inside the extension. We do not store coordinates on our servers and do not use them for targeting or analytics.</p>
+  </section>
+
+  <section>
+    <h2>Transmission and Storage</h2>
+    <p>Requests containing coordinates are sent directly to <code>https://api.open-meteo.com</code>. MicrometeoApp does not transmit user coordinates to third parties. Temporary network logs may exist on the API provider side; please consult Open-Meteo's privacy policy for details.</p>
+  </section>
+
+  <section>
+    <h2>Extension Permissions</h2>
+    <p>The extension uses minimal host permissions: <code>https://api.open-meteo.com/*</code>. Location permission is requested by the browser via the Geolocation prompt and is not requested silently in the background.</p>
+  </section>
+
+  <section>
+    <h2>User Requests and Deletion</h2>
+    <p>For requests to delete data or to inquire what data could have been processed, contact: <a href="mailto:micrometeoapp@gmail.com">micrometeoapp@gmail.com</a>. We will respond and act in a timely manner.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:micrometeoapp@gmail.com">micrometeoapp@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>If you discover a privacy or security issue, please contact the address above.</p>
+  </footer>
+</body>
+</html>
